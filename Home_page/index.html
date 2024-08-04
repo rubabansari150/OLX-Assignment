@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX Home</title>
+
+    <!-- Custom Css Link -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <!-- Bootstrap 5 Folder Link  -->
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+
+    <!-- Bootstrap 5 icon CDN Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <!-- First Navbar -->
+     <div class="navbar_fixed sticky-top">
+    <nav class="navbar bg-white mt-1">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/ol_logo.png" alt="olx" width="55" height="35" class="ms-4">
+
+            <span class="nav_icon ms-5"style="font-size: 23px;"><i class="bi bi-car-front-fill"></i>
+            </span>
+            <span class="fw-bold ms-2" style="font-size: 17px;">Motors</span>
+
+            <span class="nav_icon ms-5"style="font-size: 23px;"><i class="bi bi-buildings"></i></span>
+            <span class="fw-bold ms-2" style="font-size: 17px;">Property</span>
+          </a>
+        </div>
+    </nav>
+
+    <!-- Second Navbar -->
+    <nav class="navbar bg-white ">
+      <div class="container-fluid">
+        <form class="d-flex" role="search">
+
+           <!-- Dropdown  -->
+        <button class="btn btn-lg btn-outline-secondary bg-transparent text-dark rounded-1 ms-4 text-start" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 400px;"><i class="bi bi-geo-alt"></i> Pakistan <i class="bi bi-caret-down dropdown_btn"></i></button>
+        <ul class="dropdown-menu ms-5">
+          <li><a class="dropdown-item text-primary" href="#"><i class="bi bi-crosshair text-primary"></i> Use current location</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#"><i class="bi bi-geo-alt"></i> See in all Pakistan</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item disabled" href="#" style="font-size: 12px;">CHOOSE REGION</a></li>
+          <li><a class="dropdown-item" href="#"><i class="bi bi-geo-alt"></i> Azad Kashmir, Pakistan</a></li>
+          <li><a class="dropdown-item" href="#"><i class="bi bi-geo-alt"></i> Biolocistan, Pakistan</a></li>
+          <li><a class="dropdown-item" href="#"><i class="bi bi-geo-alt"></i> Islamabad capital Terriotry, Pakist...</a></li>
+          <li><a class="dropdown-item" href="#"><i class="bi bi-geo-alt"></i> Khybar Pakhtunkhwa, Pakistan</a></li>
+          <li><a class="dropdown-item" href="#"><i class="bi bi-geo-alt"></i> North Area, Pakistan</a></li>
+          <li><a class="dropdown-item" href="#"><i class="bi bi-geo-alt"></i> Punjab, Pakistan</a></li>
+          <li><a class="dropdown-item" href="#"><i class="bi bi-geo-alt"></i> Sindh, Pakistan</a></li>
+        </ul>
+
+        <!-- Input Search Bar  -->
+        <div class="input-group ">
+          <input type="text" class="form-control text-dark rounded-1 ms-3 "  placeholder="Find Cars, Mobile Phones and more..." aria-label="Recipient's username" aria-describedby="basic-addon2" style="width: 640px;">
+          <span class="input-group-text bg-dark" id="basic-addon2"><i class="bi bi-search text-white"></i></span>
+        </div>
+
+        <!-- login button -->
+        <button type="button" class="btn btn-link btn_login text-dark fw-bold">Login</button>
+
+         <!-- sells button -->
+        <button type="button" class="btn btn-outline-secondary rounded-1 rounded-pill sell_btn">+SELLS</button>
+
+        </form>
+      </div>
+    </nav>
+
+  </div>
+<hr>
+   <!-- Third Navbar -->
+      <!-- dropdown -->
+      <nav class="navbar bg-transparent">
+        <div class="container-fluid">
+            <a class="nav-link dropdown-toggle dpCatego ms-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ALL CATEGORIES
+              <ul class="dropdown-menu ms-4 ">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+              <span class="me-auto d-flex trdnav_link">
+                 <span><a href="#" class="nav-link ms-4 text-dark">Mobile Phones</a></span>
+                <a href="#" class="nav-link ms-4 text-dark">Cars</a>
+                <a href="#" class="nav-link ms-4 text-dark">Motorcycles</a>
+                <a href="#" class="nav-link ms-4 text-dark">Houses</a>
+                <a href="#" class="nav-link ms-4 text-dark">Vedio-Audios</a>
+                <a href="#" class="nav-link ms-4 text-dark">Tablets</a>
+                <a href="#" class="nav-link ms-4 text-dark">Land & Plots</a>
+              </span>
+            </a>
+          </div>
+      </nav>
+
+
+      <!-- 1st Main image -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <img src="https://images.olx.com.pk/thumbnails/461235937-800x600.webp" alt="" loading="auto" alt="" loading="auto"  alt="" class="img-fluid main_img">
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 2nd Main image -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <img src="images/nestle.jpg" alt="" class="img-fluid mt-4 mb-5 " style="height: 170px; width: 100%;">
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Categories Item -->
+       <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-lg-12">
+            <p class="card-text ms-4 fs-4 fw-bold mb-3">All Categories</p>
+          </div>
+
+          <div class="col-lg-1 col-md-2  col-sm-2 ms-4 mt-1">
+            <img src="https://www.olx.com.pk/assets/mobiles.8c768c96bfde33f18fcf5af2a8b9cf71.png" width="90px" height="90px" alt="">
+            <p class="card-texts text-center">Mobiles</p>
+          </div>
+
+          <div class="col-lg-1 col-md-2  col-sm-2 ms-4 mt-1">
+            <img src="https://www.olx.com.pk/assets/vehicles.29fb808d5118f0db56f68a39ce5392e2.png"width="90px" height="90px" alt="">
+            <p class="card-texts text-center">Vehicles</p>
+          </div>
+
+          <div class="col-lg-1 col-md-2  col-sm-2 ms-4 mt-1">
+            <img src="https://www.olx.com.pk/assets/property-for-sale.e3a00dbfdaa69fe5f713665f1069502f.png" 
+            width="90px" height="90px"alt="">
+            <p class="card-texts text-center">Property for sale</p>
+          </div>
+
+          <div class="col-lg-1 col-md-2  col-sm-2 ms-4 mt-1">
+            <img src="https://www.olx.com.pk/assets/property-for-rent.8436595fbaa90d47f0178006f57090a8.png" 
+            width="90px" height="90px"alt="">
+            <p class="card-texts text-center">Property For Rent</p>
+          </div>
+
+          <div class="col-lg-1 col-md-2  col-sm-2 ms-4 mt-1">
+            <img src="https://www.olx.com.pk/assets/electronics-home-appliances.46e034dd8adca44625c2c70e4d1b5984.png" 
+            width="90px" height="90px"alt="">
+            <p class="card-texts text-center">Electronic & Home Appliances </p>
+          </div>
+
+          <div class="col-lg-1 col-md-2  col-sm-2 ms-4 mt-1">
+            <img src="https://www.olx.com.pk/assets/bikes.4dcd02c49b2b83aa5b4d629d1e2b383e.png" 
+            width="90px" height="90px"alt="">
+            <p class="card-texts text-center">Bikes</p>
+          </div>
+
+          <div class="col-lg-1 col-md-2  col-sm-2 ms-4 mt-1">
+            <img src="	https://www.olx.com.pk/assets/business-industrial-agriculture.704a6ffb9081bc94b11c102cc613670f.png" 
+            width="90px" height="90px"alt="">
+            <p class="card-texts text-center">Bussiness & Industrial Agriculture</p>
+          </div>
+
+          <div class="col-lg-1 col-md-2  col-sm-2 ms-4 mt-1">
+            <img src="https://www.olx.com.pk/assets/services.dc6aef196c0403dc61b0ee813f66fa5b.png" 
+            width="90px" height="90px"alt="">
+            <p class="card-texts text-center">Services</p>
+          </div>
+
+          <div class="col-lg-1 col-md-2  col-sm-2 ms-4 mt-1">
+            <img src="https://www.olx.com.pk/assets/jobs.79e6136dda02111cf8e7afe26b9e0f93.png" 
+            width="90px" height="90px"alt="">
+            <p class="card-texts text-center">Jobs</p>
+          </div>
+
+          <div class="col-lg-1 col-md-2  col-sm-2 ms-4 mt-3">
+            <img src="https://www.olx.com.pk/assets/animals.62d396e85f7523dbc8ff23889fdd5c31.png" 
+            width="90px" height="90px"alt="">
+            <p class="card-texts text-center">Animals</p>
+          </div>
+
+          <div class="col-lg-1 col-md-2  col-sm-2 ms-4 mt-3">
+            <img src="https://www.olx.com.pk/assets/furniture-home-decor.66bcf157a53ea4c736a5b0af41219475.png" 
+            width="90px" height="90px"alt="">
+            <p class="card-texts text-center">Furniture & Home decor</p>
+          </div>
+
+          <div class="col-lg-1 col-md-2  col-sm-2 ms-4 mt-3">
+            <img src="https://www.olx.com.pk/assets/fashion-beauty.dd2cf7638c29b0e5c084a6673dd94dd7.png" 
+            width="90px" height="90px"alt="">
+            <p class="card-texts text-center">Fashion & Beauty</p>
+          </div>
+
+          <div class="col-lg-1 col-md-2  col-sm-2 ms-4 mt-3">
+            <img src="	https://www.olx.com.pk/assets/books-sports-hobbies.6fee8d841b332d65a10f050f4a2ee1c8.png" 
+            width="90px" height="90px"alt="">
+            <p class="card-texts text-center">Books, Sports & Hobbies</p>
+          </div>
+
+          <div class="col-lg-1 col-md-2 col-sm-2 ms-4 mt-3">
+            <img src="https://www.olx.com.pk/assets/kids.cd8d8864804f1c35dd6a7df68268a48d.png" 
+            width="90px" height="90px"alt="">
+            <p class="card-texts text-center">Kids</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Card Section -->
+     <div class="container-fluid ">
+      <div class="row">
+        <div class="col-lg-10">
+          <p class="card-text fs-4 mb-3 mt-4 fw-bold">Mobile Phones</p>
+        </div>
+        <div class="col-lg-2">
+          <p class="card-text fw-bold text-primary" style="margin-left: 85px; margin-top: 33px;">View More <i class="bi bi-chevron-right"></i></p>
+        </div>
+
+      </div>
+
+
+      <div class="row row-cols-2 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/iphonev.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 213,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">iphone 14 pro max 256gb (10/10)</p>
+              <p class="card-text" style="font-size: 14px;">G-13, Islamabad</p>
+              <p class="card-text"><small class="text-muted">21 hours ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/iphone.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 375,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">iphone 4 pro max 256gb PTA approved</p>
+              <p class="card-text" style="font-size: 14px;">Shah Khalid Colony, Rawalpindi</p>
+              <p class="card-text"><small class="text-muted">5 days ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/iphone2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 27,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">JUST LIKE NEW ihone 6s 128gb   Grey with ALL Accessories PTA...</p>
+              <p class="card-text" style="font-size: 14px;">PWD Housing Scheme, Islamabad</p>
+              <p class="card-text"><small class="text-muted">2 weeks ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/iphoneb.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 26,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">XIAMOIREDME 13C 128GB BOX PAK OFFICAL NOTE 13 PRO+ 5G...</p>
+              <p class="card-text" style="font-size: 14px;">Allama Aqbal Town, Lahore</p>
+              <p class="card-text"><small class="text-muted">3 weeks ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+     <!-- Car Card Section -->
+     <div class="container-fluid ">
+      <div class="row">
+        <div class="col-lg-10">
+          <p class="card-text fs-4 mb-3 mt-4 fw-bold">Cars</p>
+        </div>
+        <div class="col-lg-2">
+          <p class="card-text fw-bold text-primary" style="margin-left: 85px; margin-top: 33px;">View More <i class="bi bi-chevron-right"></i></p>
+        </div>
+
+      </div>
+
+
+      <div class="row row-cols-2 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/car_01.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 213,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">iphone 14 pro max 256gb (10/10)</p>
+              <p class="card-text" style="font-size: 14px;">G-13, Islamabad</p>
+              <p class="card-text"><small class="text-muted">21 hours ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/car_02.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 375,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">iphone 4 pro max 256gb PTA approved</p>
+              <p class="card-text" style="font-size: 14px;">Shah Khalid Colony, Rawalpindi</p>
+              <p class="card-text"><small class="text-muted">5 days ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/car_00.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 27,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">JUST LIKE NEW ihone 6s 128gb   Grey with ALL Accessories PTA...</p>
+              <p class="card-text" style="font-size: 14px;">PWD Housing Scheme, Islamabad</p>
+              <p class="card-text"><small class="text-muted">2 weeks ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/car_04.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 26,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">XIAMOIREDME 13C 128GB BOX PAK OFFICAL NOTE 13 PRO+ 5G...</p>
+              <p class="card-text" style="font-size: 14px;">Allama Aqbal Town, Lahore</p>
+              <p class="card-text"><small class="text-muted">3 weeks ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!-- Bikes & Motorcycles Card Section -->
+     <div class="container-fluid ">
+      <div class="row">
+        <div class="col-lg-10">
+          <p class="card-text fs-4 mb-3 mt-4 fw-bold">Bikes & Motorcycles</p>
+        </div>
+        <div class="col-lg-2">
+          <p class="card-text fw-bold text-primary" style="margin-left: 85px; margin-top: 33px;">View More <i class="bi bi-chevron-right"></i></p>
+        </div>
+
+      </div>
+
+
+      <div class="row row-cols-2 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/bike.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 213,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">iphone 14 pro max 256gb (10/10)</p>
+              <p class="card-text" style="font-size: 14px;">G-13, Islamabad</p>
+              <p class="card-text"><small class="text-muted">21 hours ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/bike_2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 375,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">iphone 4 pro max 256gb PTA approved</p>
+              <p class="card-text" style="font-size: 14px;">Shah Khalid Colony, Rawalpindi</p>
+              <p class="card-text"><small class="text-muted">5 days ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/bike_3.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 27,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">JUST LIKE NEW ihone 6s 128gb   Grey with ALL Accessories PTA...</p>
+              <p class="card-text" style="font-size: 14px;">PWD Housing Scheme, Islamabad</p>
+              <p class="card-text"><small class="text-muted">2 weeks ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/bike_4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 26,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">XIAMOIREDME 13C 128GB BOX PAK OFFICAL NOTE 13 PRO+ 5G...</p>
+              <p class="card-text" style="font-size: 14px;">Allama Aqbal Town, Lahore</p>
+              <p class="card-text"><small class="text-muted">3 weeks ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Houses Card Section -->
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col-lg-10">
+          <p class="card-text fs-4 mb-3 mt-4 fw-bold">Houses</p>
+        </div>
+        <div class="col-lg-2">
+          <p class="card-text fw-bold text-primary" style="margin-left: 85px; margin-top: 33px;">View More <i class="bi bi-chevron-right"></i></p>
+        </div>
+
+      </div>
+
+
+      <div class="row row-cols-2 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/house_01.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 213,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">iphone 14 pro max 256gb (10/10)</p>
+              <p class="card-text" style="font-size: 14px;">G-13, Islamabad</p>
+              <p class="card-text"><small class="text-muted">21 hours ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/house_02.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 375,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">iphone 4 pro max 256gb PTA approved</p>
+              <p class="card-text" style="font-size: 14px;">Shah Khalid Colony, Rawalpindi</p>
+              <p class="card-text"><small class="text-muted">5 days ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/house_03.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 27,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">JUST LIKE NEW ihone 6s 128gb   Grey with ALL Accessories PTA...</p>
+              <p class="card-text" style="font-size: 14px;">PWD Housing Scheme, Islamabad</p>
+              <p class="card-text"><small class="text-muted">2 weeks ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/house_.04.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 26,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">XIAMOIREDME 13C 128GB BOX PAK OFFICAL NOTE 13 PRO+ 5G...</p>
+              <p class="card-text" style="font-size: 14px;">Allama Aqbal Town, Lahore</p>
+              <p class="card-text"><small class="text-muted">3 weeks ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Vedio & Audios Card Section -->
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col-lg-10">
+          <p class="card-text fs-4 mb-3 mt-4 fw-bold">Vedio & Audios</p>
+        </div>
+        <div class="col-lg-2">
+          <p class="card-text fw-bold text-primary" style="margin-left: 85px; margin-top: 33px;">View More <i class="bi bi-chevron-right"></i></p>
+        </div>
+
+      </div>
+
+
+      <div class="row row-cols-2 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100 mobile_card">
+            <img src="images/Audio_1.jpeg" class="card-img-top h-100" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 213,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">iphone 14 pro max 256gb (10/10)</p>
+              <p class="card-text" style="font-size: 14px;">G-13, Islamabad</p>
+              <p class="card-text"><small class="text-muted">21 hours ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Audio_2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 375,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">iphone 4 pro max 256gb PTA approved</p>
+              <p class="card-text" style="font-size: 14px;">Shah Khalid Colony, Rawalpindi</p>
+              <p class="card-text"><small class="text-muted">5 days ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Audio_3.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 27,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">JUST LIKE NEW ihone 6s 128gb   Grey with ALL Accessories PTA...</p>
+              <p class="card-text" style="font-size: 14px;">PWD Housing Scheme, Islamabad</p>
+              <p class="card-text"><small class="text-muted">2 weeks ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Audio_4.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 26,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">XIAMOIREDME 13C 128GB BOX PAK OFFICAL NOTE 13 PRO+ 5G...</p>
+              <p class="card-text" style="font-size: 14px;">Allama Aqbal Town, Lahore</p>
+              <p class="card-text"><small class="text-muted">3 weeks ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Tablets Card Section -->
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col-lg-10">
+          <p class="card-text fs-4 mb-3 mt-4 fw-bold">Tablets</p>
+        </div>
+        <div class="col-lg-2">
+          <p class="card-text fw-bold text-primary" style="margin-left: 85px; margin-top: 33px;">View More <i class="bi bi-chevron-right"></i></p>
+        </div>
+
+      </div>
+
+
+      <div class="row row-cols-2 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100 ">
+            <img src="images/tablet_1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 213,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">iphone 14 pro max 256gb (10/10)</p>
+              <p class="card-text" style="font-size: 14px;">G-13, Islamabad</p>
+              <p class="card-text"><small class="text-muted">21 hours ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/tablet_2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 375,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">iphone 4 pro max 256gb PTA approved</p>
+              <p class="card-text" style="font-size: 14px;">Shah Khalid Colony, Rawalpindi</p>
+              <p class="card-text"><small class="text-muted">5 days ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/tablet_3.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 27,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">JUST LIKE NEW ihone 6s 128gb   Grey with ALL Accessories PTA...</p>
+              <p class="card-text" style="font-size: 14px;">PWD Housing Scheme, Islamabad</p>
+              <p class="card-text"><small class="text-muted">2 weeks ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/tablet_4.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 26,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">XIAMOIREDME 13C 128GB BOX PAK OFFICAL NOTE 13 PRO+ 5G...</p>
+              <p class="card-text" style="font-size: 14px;">Allama Aqbal Town, Lahore</p>
+              <p class="card-text"><small class="text-muted">3 weeks ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Lands & Plots Card Section -->
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col-lg-10">
+          <p class="card-text fs-4 mb-3 mt-4 fw-bold">Land & Plots</p>
+        </div>
+        <div class="col-lg-2">
+          <p class="card-text fw-bold text-primary" style="margin-left: 85px; margin-top: 33px;">View More <i class="bi bi-chevron-right"></i></p>
+        </div>
+
+      </div>
+
+
+      <div class="row row-cols-2 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100 mobile_card">
+            <img src="images/land_01.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 213,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">iphone 14 pro max 256gb (10/10)</p>
+              <p class="card-text" style="font-size: 14px;">G-13, Islamabad</p>
+              <p class="card-text"><small class="text-muted">21 hours ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/land_02.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 375,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">iphone 4 pro max 256gb PTA approved</p>
+              <p class="card-text" style="font-size: 14px;">Shah Khalid Colony, Rawalpindi</p>
+              <p class="card-text"><small class="text-muted">5 days ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/land_3.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 27,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">JUST LIKE NEW ihone 6s 128gb   Grey with ALL Accessories PTA...</p>
+              <p class="card-text" style="font-size: 14px;">PWD Housing Scheme, Islamabad</p>
+              <p class="card-text"><small class="text-muted">2 weeks ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/land_4.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 26,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">XIAMOIREDME 13C 128GB BOX PAK OFFICAL NOTE 13 PRO+ 5G...</p>
+              <p class="card-text" style="font-size: 14px;">Allama Aqbal Town, Lahore</p>
+              <p class="card-text"><small class="text-muted">3 weeks ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Jobs Card Section -->
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col-lg-10">
+          <p class="card-text fs-4 mb-3 mt-4 fw-bold">Jobs</p>
+        </div>
+        <div class="col-lg-2">
+          <p class="card-text fw-bold text-primary" style="margin-left: 85px; margin-top: 33px;">View More <i class="bi bi-chevron-right"></i></p>
+        </div>
+
+        
+      </div>
+
+
+      <div class="row row-cols-2 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100 mobile_card">
+            <img src="images/job_1.png" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 213,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">iphone 14 pro max 256gb (10/10)</p>
+              <p class="card-text" style="font-size: 14px;">G-13, Islamabad</p>
+              <p class="card-text"><small class="text-muted">21 hours ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/job_2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 375,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">iphone 4 pro max 256gb PTA approved</p>
+              <p class="card-text" style="font-size: 14px;">Shah Khalid Colony, Rawalpindi</p>
+              <p class="card-text"><small class="text-muted">5 days ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/job_01.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 27,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">JUST LIKE NEW ihone 6s 128gb   Grey with ALL Accessories PTA...</p>
+              <p class="card-text" style="font-size: 14px;">PWD Housing Scheme, Islamabad</p>
+              <p class="card-text"><small class="text-muted">2 weeks ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/job_4.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rs 26,000 <i class="bi bi-suit-heart"></i></h5>
+              <p class="card-text">XIAMOIREDME 13C 128GB BOX PAK OFFICAL NOTE 13 PRO+ 5G...</p>
+              <p class="card-text" style="font-size: 14px;">Allama Aqbal Town, Lahore</p>
+              <p class="card-text"><small class="text-muted">3 weeks ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 1st last image -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <img src="https://tpc.googlesyndication.com/simgad/10895852615995189300" alt="" class="img-fluid mt-5 " style="height: 230px; width: 100%;">
+        </div>
+      </div>
+    </div>
+
+    <!-- Last image Section -->
+     <div class="container-fluid bg-light ">
+      <div class="row mt-5">
+        <div class="col-lg-4">
+          <img src="https://www.olx.com.pk/assets/olxMobileApp.f5579f77e849b600ad60857e46165516.webp" alt="" style="height: 185px; width: 100%; border-left: 2px solid gray;">
+        </div>
+        <div class="col-lg-4">
+          <h2 class="mt-5 text-dark">TRY THE OLX APP</h2>
+          <p class="fs-5 fw-bold mt-4 lh-sm">Buy, sell and find just about anything using the app on your mobile.</p>
+        </div>
+        <div class="col-lg-4 icon_app_stor">
+          <p class="mt-5 text-dark fw-bold ">GET YOUR TODAY</p>
+          <span class="icon_app_stor">
+            <img src="https://www.olx.com.pk/assets/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg" height="133px" width="133px" alt="">
+            <img src="https://www.olx.com.pk/assets/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg" height="133px" width="133px" alt="">
+            <img src="https://www.olx.com.pk/assets/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg" height="133px" width="133px" alt="">
+          </span>
+        </div>
+      </div>
+     </div>
+
+     <!-- footer -->
+    <footer class="footer pt-3 border-3">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2">
+          <h6 class="text-end">POPULAR CATEGORIES</h6>
+          <ul>
+           <li class="list-unstyled footer_list">Cars</li>
+           <li class="list-unstyled footer_list">Flats for rent</li>
+           <li class="list-unstyled footer_list">Flats for rent</li>
+           <li class="list-unstyled footer_list">Mobile Phones</li>
+           <li class="list-unstyled footer_list">Jobs</li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <h6 class="ms-4">TRENDING SEARCHES</h6>
+          <ul clas="">
+           <li class="list-unstyled footer_list">Bikes</li>
+           <li class="list-unstyled footer_list">Watches</li>
+           <li class="list-unstyled footer_list">Books</li>
+           <li class="list-unstyled footer_list">Dogs</li>
+         </ul>
+       </div>
+       <div class="col-lg-2">
+        <h6 class="ms-4">ABOUT US</h6>
+        <ul>
+          <li class="list-unstyled footer_list">About Dubizzle Group</li>
+          <li class="list-unstyled footer_list">OLX Blog</li>
+          <li class="list-unstyled footer_list">Contact Us</li>
+          <li class="list-unstyled footer_list">OLX for Businesses</li>
+        </ul>
+       </div>
+       <div class="col-lg-2">
+        <h6 class="ms-4">OLX</h6>
+        <ul>
+          <li class="list-unstyled footer_list">Help</li>
+          <li class="list-unstyled footer_list">Sitemap</li>
+          <li class="list-unstyled footer_list">Terms of use</li>
+          <li class="list-unstyled footer_list">Privacy Policy</li>
+        </ul>
+       </div>
+       <div class="col-lg-4">
+        <h6 class="ms-4">FOLLOW US</h6>
+        <i class="bi bi-twitter ms-4"></i><i class="bi bi-facebook ms-3"></i><i class="bi bi-youtube ms-3"></i><i class="bi bi-instagram ms-3"></i>
+        <div>
+          <img src="https://www.olx.com.pk/assets/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg" height="80px" width="80px" alt="" class="ms-4">
+          <img src="https://www.olx.com.pk/assets/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg" height="80px" width="80px" alt="">
+          <img src="https://www.olx.com.pk/assets/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg" height="80px" width="80px" alt="">
+        </div>
+       </div>
+     </div>
+      </div>
+    </div>
+
+    <div class="container-fluid last_section ">
+      <p class="text-white text-end fw-bold me-3">Free Classifieds in Pakistan . © 2006-2024 OLX</p>
+    </div>
+  </footer>
+
+
+    
+
+    
+
+      
+      
+      
+   
+  
+
+    
+   
+   
+   
+   
+   
+   <!-- Bootstrap JavaScript Link -->
+   <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
